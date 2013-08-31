@@ -1,0 +1,59 @@
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: #000000;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #EB8A1D;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #EB8A1D;
+}
+
+.tweet0,.tweet1{
+  -webkit-box-shadow: 1px 1px 10px white;
+  padding: 5%;
+  color: #fff;
+}
+.tweet0 a,.tweet1 a{
+  color: #F89C0B;
+}
+.span3{
+  width: 23.076923077%;
+  margin-left: 2.564102564%;
+}
+#tweets{
+  background-color: #058BB4;
+  border-radius: 10px;
+  padding: 0.5%;
+}
+#tweets img{
+  height: 4em;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.contenido{
+  height: 20em;
+  margin-bottom: 6%;
+  overflow-y: auto;
+}
+#logo{
+  font-family: 'chiller';
+  padding-left: 19% !important;
+}
+#logo img{
+  height: 2em !important;
+}
