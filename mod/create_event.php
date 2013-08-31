@@ -1,6 +1,10 @@
-<div id="crearEventos" class="well">
+<div id="crearEventos" class="well" style="display:none;">
+	<button id="cerrar_event" class="close">&times;</button>
 	<form action="">
-		<img src="theme/img/paper-clip.png" style="position:absolute;margin-left:68%;">
+		<div id="uploads" style="position:absolute;margin-left:68%;margin-top:-41px;">
+			<a id="fileUpdate" href="fileUpdate"><img src="theme/img/paper-clip.png"></a>
+			<input type="file" name="uploadfiles" id="uploadfiles" style="display:none;">
+		</div>
 		<h3>Crear evento</h3>
 		<input class="span6" type="text" name="asunto" id="asunto" placeholder="Asunto">
 		<input class="span6" type="text" name="incidente" id="incidente" placeholder="Incidente">
@@ -15,4 +19,5 @@
 		<button type="button" class="btn"><i class="icon-envelope"></i> Email</button>
 		<button type="submit" class="btn btn-success"><i class="icon-ok-sign icon-white"></i> Crear Evento</button>
 	</form>
+	<div id="sectionFiles" style="display:none;">File: <span id="textfile"></span></div>
 </div>
